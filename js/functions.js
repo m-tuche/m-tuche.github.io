@@ -1,15 +1,3 @@
-/*
-	When the bandcamp link is pressed, stop all propagation so AmplitudeJS doesn't
-	play the song.
-*/
-let bandcampLinks = document.getElementsByClassName("bandcamp-link");
-
-for (var i = 0; i < bandcampLinks.length; i++) {
-  bandcampLinks[i].addEventListener("click", function (e) {
-    e.stopPropagation();
-  });
-}
-
 let songElements = document.getElementsByClassName("song");
 
 for (var i = 0; i < songElements.length; i++) {
@@ -29,8 +17,6 @@ for (var i = 0; i < songElements.length; i++) {
         "block";
     }
 
-    this.querySelectorAll("img.bandcamp-grey")[0].style.display = "none";
-    this.querySelectorAll("img.bandcamp-white")[0].style.display = "block";
     this.querySelectorAll(".song-duration")[0].style.color = "#FFFFFF";
   });
 
@@ -44,8 +30,6 @@ for (var i = 0; i < songElements.length; i++) {
     this.querySelectorAll(".song-meta-data .song-artist")[0].style.color =
       "#607D8B";
     this.querySelectorAll(".play-button-container")[0].style.display = "none";
-    this.querySelectorAll("img.bandcamp-grey")[0].style.display = "block";
-    this.querySelectorAll("img.bandcamp-white")[0].style.display = "none";
     this.querySelectorAll(".song-duration")[0].style.color = "#607D8B";
   });
 

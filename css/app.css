@@ -98,14 +98,6 @@ div#amplitude-right {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis; }
-    div#amplitude-right div.song img.bandcamp-grey {
-      float: left;
-      display: block;
-      margin-top: 10px; }
-    div#amplitude-right div.song img.bandcamp-white {
-      float: left;
-      display: none;
-      margin-top: 10px; }
     div#amplitude-right div.song span.song-duration {
       float: left;
       width: 55px;
