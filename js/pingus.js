@@ -60,7 +60,7 @@ Amplitude.init({
       cover_art_url: "art/pingus/scary-moosic.png",
     },
     {
-      name: "Moosic (My First Mix)",
+      name: "Sunrise",
       artist: "M-Tuche",
       album: "Pingu's Moosic",
       url: "albums/pingus/incredibox-v3-moosic-first-mix.mp3",
