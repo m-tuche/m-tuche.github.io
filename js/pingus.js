@@ -63,8 +63,8 @@ Amplitude.init({
       name: "Sunrise",
       artist: "M-Tuche",
       album: "Pingu's Moosic",
-      url: "albums/pingus/incredibox-v3-moosic-first-mix.mp3",
-      cover_art_url: "art/pingus/moosic-first-mix.png",
+      url: "albums/pingus/incredibox-v3-sunrise.mp3",
+      cover_art_url: "art/pingus/sunrise.png",
     },
     {
       name: "Rain",
