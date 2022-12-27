@@ -234,21 +234,21 @@
       //Set code to run when the link is clicked
       // by assigning a function to "onclick"
       bread.onclick = function() {
-        window.scrollTo(0, 0);
         widget.bind(SC.Widget.Events.READY, function() {
-          widget.load("https://api.soundcloud.com/playlists/1546616623&color=%23FF4C8A&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false", null)
-          player.classList.add("active");
           widget.play();
         });
+        widget.load("https://api.soundcloud.com/playlists/1546616623&color=%23FF4C8A&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false", null)
+        player.classList.add("active");
+        window.scrollTo(0, 0);
         return false;
       }
       pingu.onclick = function() {
-        window.scrollTo(0, 0);
         widget.bind(SC.Widget.Events.READY, function() {
-          widget.load("https://api.soundcloud.com/playlists/1546624615&color=%23FF4C8A&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false", null)
-          player.classList.add("active");
           widget.play();
         });
+        widget.load("https://api.soundcloud.com/playlists/1546624615&color=%23FF4C8A&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false", null)
+        player.classList.add("active");
+        window.scrollTo(0, 0);
         return false;
       }
     }
