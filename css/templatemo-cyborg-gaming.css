@@ -776,7 +776,7 @@ Banner Style
   background-image: url(../art/banner.jpeg);
   background-position: center center;
   background-size: cover;
-  min-height: 380px;
+  min-height: 410px;
   border-radius: 23px;
   padding: 80px 60px;
 }
