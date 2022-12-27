@@ -1,0 +1,11 @@
+#player {
+  transition: height 1s ease;
+  transition-delay: 0.2s;
+  width: 100%;
+  min-width: 100%;
+  height: 0px;
+}
+
+#player.active {
+  height: 410px;
+}
