@@ -1,5 +1,5 @@
-#player {
-  transition: all 1s ease;
+.player {
+  transition: all 0.5s ease;
   transition-delay: 0.2s;
   width: 100%;
   min-width: 100%;
@@ -7,7 +7,16 @@
   position: absolute;
 }
 
-#player.active {
+.player.show {
   height: 410px;
   transform: translateY(-410px);
+}
+
+.player-button {
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.player-button.ready {
+  visibility: visible;
 }
